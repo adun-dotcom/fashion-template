@@ -42,7 +42,7 @@
       </ul>
     </div>
 
-    <div class="d-inline-flex">
+    <div id="social-flex" class="d-none d-lg-block">
       <a id="nav-socials" class="nav-link" href=""><i class="fab fa-twitter"></i></a>
       <a  id="nav-socials" class="nav-link" href=""><i class="fab fa-facebook-f"></i></a>
       <a  id="nav-socials" class="nav-link" href=""><i class="fab fa-pinterest-p"></i></a>
@@ -51,7 +51,7 @@
       </div>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon "></span>
     </button>
     
   </nav>
@@ -59,6 +59,7 @@
     </header>
 
     <main>
+    
         <section id="carousel" class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -95,22 +96,46 @@
 
         <section id="images" class="container-fluid">
            
-                <div class="row mt-3">
-
-                  <div id="hidden-col" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 pt-5"><img class="img-responsive img-fluid" src="images/pexels-mikotoraw-4132651.jpg" alt="">
-                  </div>
-
-                  <div id="hidden-col" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 pt-5"><img id="img-display" class="img-responsive img-fluid" src="images/pexels-rfstudio-3819554.jpg" alt="">
-                    </div>
-                
-                    <div id="hidden-col" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 pt-5"><img class="img-responsive img-fluid" src="images/pexels-rfstudio-3819800.jpg" alt="">
-                   </div>
-
-                   <div id="hidden-col" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 pt-5"><img class="img-responsive img-fluid" src="images/pexels-cxpturing-souls-3054973.jpg" alt="">
-                    </div>
-
-                  </div>
-                
+          <div class="container-fluid card1">
+            <div class="row mt-3 card1">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 cardlist">
+          <div class="card mt-5">
+            <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/popular1.png" class="card-img-top  img-responsive img-fluid cardimg" alt="...">
+            <a href="#" class="btn hidden-btn1">Shop now</a>
+              <p href="#" class="hidden-btn2">GLASSES</p>
+            </div>
+          </div>
+        
+        
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 cardlist">
+          <div class="card mt-5">
+            <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/popular2.png" class="card-img-top img-responsive img-fluid cardimg" alt="...">
+            <a href="#" class="btn hidden-btn1">Shop now</a>
+            <p href="#" class="hidden-btn2">GLASSES</p>
+            </div>
+          </div>
+        
+        
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 cardlist">
+          <div class="card mt-5">
+            <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/popular3.png" class="card-img-top img-responsive img-fluid cardimg" alt="...">
+            <a href="#" class="btn hidden-btn1">Shop now</a>
+            <p  class="hidden-btn2">GLASSES</p>
+            </div>
+          </div>
+        
+        
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 cardlist">
+          <div class="card mt-5">
+            <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/popular4.png" class="card-img-top img-responsive img-fluid cardimg" alt="...">
+            <a href="#" class="btn hidden-btn1">Shop now</a>
+              <p href="#" class="hidden-btn2">GLASSES</p>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+        </div>
          </section>
 
         
@@ -120,27 +145,15 @@
 
         </section>
                 
-        <div class="container-fluid text-center ">
-            <div class="btn-group mb-3 d-none d-lg-block" role="group" aria-label="Basic example">
-                <button id="btn-item" type="button" class="btn">Tops</button>
-                <button id="btn-item" type="button" class="btn">Jeans</button>
-                <button id="btn-item" type="button" class="btn">Jackets</button>
-                <button id="btn-item" type="button" class="btn">Hand-Bags</button>
-                <button id="btn-item" type="button" class="btn">Underwears</button>
-                <button id="btn-item" type="button" class="btn">Body suits</button>
-                <button id="btn-item" type="button" class="btn ">Dresses</button>
-                <button id="btn-item" type="button" class="btn ">Shoes</button>
-              </div>
-        </div>
 
       <section id="card-container" class="container text-center p-0 mt-5">
        
 
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 mt-5">
           <div class="col  mb-3 ">
-            <div class="card h-100">
-              <img src="images/bodysuit2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div id="item-card" class="d-block w-100  border">
+              <img src="images/bodysuit2.jpg" class="card-img-top " alt="...">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Body Suits</h2>
                <div>
                 <i class="fas fa-star"></i>
@@ -155,9 +168,9 @@
           </div>
 
           <div class="col mb-3">
-            <div class="card h-100">
+            <div id="item-card" class="d-block w-100 border">
               <img src="images/brallete.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Brallete</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -172,9 +185,9 @@
           </div>
 
           <div class="col mb-3">
-            <div class="card h-100">
+            <div id="item-card" class="d-block w-100 border">
               <img src="images/jackets.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Jackets</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -189,9 +202,9 @@
           </div>
 
           <div class="col mb-3">
-            <div class="card h-100">
+            <div id="item-card" class="d-block w-100 border">
               <img src="images/jeans.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Jeans</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -208,9 +221,9 @@
 
         <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 mt-5">
           <div class="col  mb-3 ">
-            <div class="card h-100">
+            <div id="item-card" class="d-block w-100 border">
               <img src="images/tops.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Tops</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -225,9 +238,9 @@
           </div>
 
           <div class="col mb-3">
-            <div class="card h-100">
+            <div id="item-card" class="d-block w-100 border">
               <img src="images/shoes.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Block Heels</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -242,9 +255,9 @@
           </div>
 
           <div class="col mb-3">
-            <div class="card h-100">
+            <div id="item-card" class="d-block w-100 border">
               <img src="images/dress.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Dresses</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -259,9 +272,9 @@
           </div>
 
           <div class="col mb-3">
-            <div class="card h-100">
-              <img src="images/realbag.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div id="item-card" class=" border">
+              <img src="images/realbag.jpg" class="card-img-top " alt="...">
+              <div id="items-body" class="card-body">
                 <h2 class="card-title">Fancy Bags</h2>
                 <div>
                   <i class="fas fa-star"></i>
@@ -291,20 +304,20 @@
        </section>
       
       <section class="container-fluid mt-5 mb-5">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 mt-5">
 
-          <div class="col col-md-6 col-sm-12 ">
-            <div id="our-store" class="card bg-dark text-white">
-              <img class="img-responsive" src="images/beautiful-woman-winter-portrait-smiling-girl-wearing-warm-clothes-having-fun-hat-and-sweater-isolated-on-white-wall.jpg" class="card-img" alt="...">
+          <div class="col mb-5">
+            <div id="our-store" class="text-white">
+              <img class="img-responsive img-fluid d-block w-100" src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/xpopular-imtes1.png.pagespeed.ic.2ADmhVbkaA.webp"  alt="...">
               <div id="store-overlay" class="card-img-overlay ">
                 <a id="store-link" class="card-title">Established fact that by the readable content</a>
                 <button id="shop-more" href="#" type="button" class="btn btn-lg active mt-5">Read more</button>
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-sm-12">
-            <div id="our-store" class="card bg-dark text-white">
-              <img class="img-responsive" src="images/woman-posing-with-stylish-footwear-summer-fashion-and-bag.jpg" class="card-img" alt="...">
+          <div class="col">
+            <div id="our-store" class="text-white">
+              <img class="img-responsive img-fluid d-block w-100"" src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/xpopular-imtes2.png.pagespeed.ic.zfBoEtL3AN.webp" alt="...">
               <div id="store-overlay" class="card-img-overlay">
                 <a id="store-link" class="card-title">Established fact that by the readable content</a>
                 <button id="shop-more" href="#" type="button" class="btn btn-lg active mt-5">Read more</button>
@@ -437,8 +450,9 @@
           <p>Copyright ©2020 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span>Colorlib</span></p>
         </div>
       </div>
+  
     </footer>
-
+    <div class="arrow"><a href="#top"><i class="fas fa-level-up-alt"></i></a></div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
